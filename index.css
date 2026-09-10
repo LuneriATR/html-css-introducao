@@ -1,0 +1,32 @@
+/*Primeiro seletor > aplicado a todas as tags*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    border: 1px solid green;
+}
+
+h2{
+    background-color: grey;
+    font-family: cursive;
+    font-size: 100px;
+    color: pink;
+    /*propriedade : valor da propriedade ;*/
+}
+
+p strong{
+    color: rgb(183, 26, 52);
+}
+
+.texto-pink{
+/*classe*/
+    color: pink;
+}
+
+.texto-amarelo{
+    color: #fff000
+}
