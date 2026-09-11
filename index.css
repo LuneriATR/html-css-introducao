@@ -5,14 +5,15 @@
     box-sizing: border-box;
 }
 
-h1{
-    border: 1px solid green;
+#header{
+    color: white;
+    border: 10px solid white;
 }
 
 h2{
     background-color: grey;
     font-family: cursive;
-    font-size: 100px;
+    font-size: 50px;
     color: pink;
     /*propriedade : valor da propriedade ;*/
 }
@@ -21,11 +22,20 @@ p strong{
     color: rgb(183, 26, 52);
 }
 
-.texto-pink{
+.texto-azul{
 /*classe*/
-    color: pink;
+    color: blue;
 }
 
 .texto-amarelo{
     color: #fff000
+}
+
+body{
+    background-image: url("eevee.png");
+    background-color: pink;
+}
+
+div{
+    background-image: linear-gradient( white, pink, white);
 }
